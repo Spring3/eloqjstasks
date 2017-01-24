@@ -1,6 +1,6 @@
-for(var i = 0; i < 100; i ++) {
-  var divOnThree = i % 3 === 0;
-  var divOnFive = i % 5 === 0;
+for(let i = 0; i < 100; i ++) {
+  const divOnThree = i % 3 === 0;
+  const divOnFive = i % 5 === 0;
   if (divOnThree && divOnFive) {
     console.log('FizzBuzz')
   }else if (divOnThree) {
